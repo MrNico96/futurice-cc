@@ -1,0 +1,26 @@
+package-lock.json
+# Dependency directories
+node_modules/
+# Logs
+logs
+*.log
+*.DS
+*.ds
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+# github
+.github/
+github/
+# dotenv environment variables file
+.env
+*.env
+.env.test
+# Optional npm cache directory
+.npm
+# IDE
+.idea/
+.vscode/
+.vscode-test
+README.md

@@ -1,0 +1,32 @@
+{
+  "name": "futurice-cc",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "mocha --timeout 90000 --exit"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mathjs": "^9.4.3",
+    "morgan": "^1.10.0",
+    "workerpool": "^6.1.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.0.2",
+    "nodemon": "^2.0.9"
+  },
+  "engines": {
+    "node": ">= 12.11",
+    "npm": ">= 6.0.0"
+  },
+  "author": {
+    "name": "Nico Richter",
+    "url": "https://nico-judge.de"
+  }
+}
