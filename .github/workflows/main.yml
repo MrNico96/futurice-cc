@@ -33,4 +33,6 @@ jobs:
           heroku_app_name: "futurice-cc"
           heroku_email: ${{secrets.HEROKU_EMAIL}}
           healthcheck: "https://futurice-cc.herokuapp.com/status"
+          checkstring: "Welcome to Calculus"
+          delay: 25
           usedocker: true
