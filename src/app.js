@@ -14,7 +14,6 @@ app.use(cors())
 app.use(morgan('combined'))
 
 // define routes
-app.use(express.static(__dirname + '/public'));
 require('./routes/')(app)
 
 app.listen(port, () => {
