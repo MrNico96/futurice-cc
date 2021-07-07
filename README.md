@@ -1,5 +1,5 @@
 # Futurice Calculus :pager: :rocket:
-The task was solved with the help of an ExpressJS web application.
+Build with Node.js
 
 :earth_americas: [Calculus Demo](https://futurice-cc.herokuapp.com/)
 
@@ -15,12 +15,12 @@ With the help of [GitHub Actions](.github/workflows/main.yml), after each source
 
 
 # Run it local
-The entire application is contained within the `app.rb` file.
+Start the `src/app.js` file.
 ## Install
     npm install
 ### Run the app
     npm start
-    or with better nodedeam
+    or with better nodemon
     npm dev
 ### Run the tests
     npm run test
@@ -32,7 +32,7 @@ The entire application is contained within the `app.rb` file.
 
 
 # Endpoints
-The REST API to the example app is described below.
+The REST API to calculus-app is described below.
 
 ## Get result for a calculation
 
@@ -76,9 +76,9 @@ The REST API to the example app is described below.
     Welcome to Calculus
 
 # Helpful Links
-- [Node.js Documentation](https://expressjs.com/de/api.html)
-- [Express.js Documentation](https://expressjs.com/de/api.html)
-- [Docker Documentation](https://expressjs.com/de/api.html)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [Express.js Documentation](https://expressjs.com/en/4x/api.html)
+- [Docker Documentation](https://docs.docker.com/get-started/overview/)
 
 # Disclaimer
 This application uses an **eval()** function. The input is checked beforehand by a regex expression, but it would be safer to use a maths library like [MathJs](https://mathjs.org/), which works without eval() [since version 4](https://mathjs.org/docs/expressions/security.html).
